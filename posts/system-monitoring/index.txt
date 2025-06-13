@@ -1,0 +1,106 @@
+1:"$Sreact.fragment"
+2:I[6874,["874","static/chunks/874-54cc5e0094b7e37e.js","177","static/chunks/app/layout-3330dd6f2383d3a1.js"],""]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/_next/static/css/5c9d2c00794f3347.css","style"]
+0:{"P":null,"b":"4C5D49WmJB3h0g4RlUozZ","p":"","c":["","posts","system-monitoring",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","system-monitoring","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5c9d2c00794f3347.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"style":{"backgroundColor":"#0a0a0a","minHeight":"100vh"},"children":["$","div",null,{"className":"wiki-container","children":[["$","header",null,{"className":"wiki-header","children":["$","nav",null,{"className":"wiki-nav","children":["$","div",null,{"className":"wiki-nav-links","children":[["$","$L2",null,{"href":"/","className":"wiki-nav-link","children":"Home"}],["$","$L2",null,{"href":"/posts","className":"wiki-nav-link","children":"Posts"}],["$","$L2",null,{"href":"/about","className":"wiki-nav-link","children":"About"}]]}]}]}],["$","main",null,{"className":"wiki-main","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"wiki-footer","children":"© 2024 0nsec"}]]}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","system-monitoring","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],null,["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","90t9h6x3dA0gevrA9cJr7",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"0nsec"}],["$","meta","1",{"name":"description","content":"Personal tech blog"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}
+13:I[4090,["146","static/chunks/146-c8a5f4768cfaf6e4.js","858","static/chunks/app/posts/%5Bslug%5D/page-5dde4d5d380d1f79.js"],"default"]
+14:T873,
+# System Monitoring Best Practices
+
+Effective system monitoring is crucial for maintaining healthy and performant systems. This guide covers essential monitoring techniques and tools.
+
+## Key Metrics to Monitor
+
+### System Resources
+
+- **CPU Usage**: Monitor CPU utilization and load averages
+- **Memory Usage**: Track RAM consumption and swap usage
+- **Disk I/O**: Monitor disk read/write operations and space usage
+- **Network**: Track bandwidth usage and connection counts
+
+### Application Metrics
+
+- **Response Time**: Monitor application response times
+- **Error Rates**: Track application errors and exceptions
+- **Throughput**: Monitor requests per second
+- **Database Performance**: Query execution times and connection pools
+
+## Essential Monitoring Tools
+
+### Command Line Tools
+
+```bash
+# System resource monitoring
+top
+htop
+iotop
+netstat
+
+# Disk usage
+df -h
+du -sh *
+
+# Memory usage
+free -h
+vmstat
+
+# Network monitoring
+ss -tuln
+iftop
+```
+
+### Monitoring Solutions
+
+1. **Prometheus + Grafana**
+   - Time-series database with powerful visualization
+   - Excellent for metrics collection and alerting
+
+2. **ELK Stack (Elasticsearch, Logstash, Kibana)**
+   - Centralized logging and log analysis
+   - Great for troubleshooting and forensics
+
+3. **Nagios**
+   - Traditional monitoring solution
+   - Good for infrastructure monitoring
+
+## Setting Up Alerts
+
+### Critical Thresholds
+
+- CPU usage > 80% for 5 minutes
+- Memory usage > 90%
+- Disk space > 85%
+- Application response time > 2 seconds
+
+### Alert Channels
+
+- Email notifications
+- Slack/Teams integration
+- SMS for critical alerts
+- PagerDuty for on-call rotation
+
+## Best Practices
+
+1. **Start Simple**: Begin with basic system metrics
+2. **Avoid Alert Fatigue**: Set meaningful thresholds
+3. **Document Everything**: Maintain runbooks for common issues
+4. **Regular Reviews**: Periodically review and adjust monitoring
+5. **Automate Responses**: Use automation for common remediation tasks
+
+## Conclusion
+
+Effective monitoring is an ongoing process that requires careful planning and regular maintenance. Start with the basics and gradually expand your monitoring coverage as your systems grow.5:["$","main",null,{"className":"min-h-screen bg-[var(--background)] py-8","children":["$","div",null,{"className":"max-w-3xl mx-auto px-6 flex flex-col items-center","children":["$","article",null,{"className":"bg-[#1a1a1a] border border-[#333] rounded-xl p-8 mb-8 w-full flex flex-col items-center","children":[["$","header",null,{"className":"mb-8 w-full flex flex-col items-center","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4 text-[#7c3aed] border-b-2 border-[#333] pb-4 w-full text-center","children":"System Monitoring Best Practices"}],["$","div",null,{"className":"flex items-center gap-4 text-sm text-[#888] justify-center w-full","children":[["$","time",null,{"className":"bg-[#333]/30 px-3 py-1 rounded-full","children":"2024-12-15"}],["$","span",null,{"className":"bg-[#7c3aed]/10 text-[#7c3aed] px-3 py-1 rounded-full","children":"Essential monitoring techniques and tools for maintaining healthy systems."}]]}]]}],["$","div",null,{"className":"w-full","children":["$","$L13",null,{"content":"$14"}]}]]}]}]}]
